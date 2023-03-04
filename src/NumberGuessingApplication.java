@@ -20,7 +20,7 @@ public class NumberGuessingApplication {
         }
 
         System.out.println("I'm thinking of a number between 1 and 100. You have " + guesses + " guesses");
-        System.out.println("Answer is: " + answer);
+        //System.out.println("Answer is: " + answer);
 
         playGame(answer, guesses, scnr);
 
